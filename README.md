@@ -6,10 +6,10 @@ A fictional company called "PyBer" is exploring the relationship between type of
 
 ## Analysis 
 ### Results
-Combining two .csv files containing ride data and city information, a DataFrame is created to summarize the differences in ride-sharing data among Urban, Suburban, and Rural city types.
+Combining two .csv files containing ride data and city information, a DataFrame is created to summarize the differences in ridesharing data among Urban, Suburban, and Rural city types.
 ![Summary Overview](/analysis/PyBer_summary_df.png)
 From the sampled data, one can see that:
-- There were 2375 total rides.  Urban (1625) account for 68.4% of rides, Suburban rides (625) make up 26.3%, and Rural rides (125) are 5.3% of all rides.
+- There were 2375 total rides.  Urban rides (1625) account for 68.4% of rides, Suburban rides (625) make up 26.3%, and Rural rides (125) are 5.3% of all rides.
 
   ![Rides By Type](/analysis/Fig6.png)
   
@@ -20,7 +20,7 @@ From the sampled data, one can see that:
 
   ![Fares By Type](/analysis/Fig5.png)
 
-The following chart shows Total Fare by City Type from Jan. 1 2019 to April 27, 2019
+The following chart shows Total Fare by City Type from Jan. 1 2019 to April 27, 2019.
 
   ![Fares By City_Time](/analysis/PyBer_fare_summary.png)
   
@@ -28,4 +28,15 @@ The following chart shows Total Fare by City Type from Jan. 1 2019 to April 27, 
 - Similarly, Average Fare per Driver is highest for Rural Drivers at $55.49.  Suburban drivers average $39.50, while urban drivers earn on average $16.57.
 
  ![Bubble Chart Fares vs Size](/analysis/Fig1.png)
+
+## Summary
+
+Despite the overall larger volume of ride shares in Urban cities, the average fare per ride and per driver is less than suburban or rural cities. There are more total drivers (2405) in urban cities than total urban rides (1625). This implies that there is less demand for urban rides than there is supply of urban drivers.
+
+Rural and Suburban drivers earn more per ride. This may be due to the larger distances covered in rural and suburban ride shares. A recommendation would be to sample ride length and/or duration. It would be beneficial also to understand where rides originate and end. For example, rides that are lumped under suburban cities may originate in a suburban city but the destination may be urban (airport, or venue) and vice versa. If this were the case, perhaps some urban drivers can accommodate ride shares in neighboring suburban areas.
+
+Another recommendation would be to test lower rates in rural areas to see if that will drive more ride shares in rural locations.
+
+All three city types had a peak in fares in late February. Perhaps there was an event in the area at that time.  Preemptive advertising as well as increasing available drivers for rural and suburban areas before large events and holidays may have a beneficial impact.
+
 
